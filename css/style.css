@@ -90,9 +90,10 @@ a:focus{
 /*Req 5*/
 
 .container{
+  display:grid;
   grid-template-columns: 1fr 3fr 3fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 20px;
+  grid-row-gap: 20px;
  }
 
   /*Req 6a*/
@@ -153,7 +154,7 @@ a:focus{
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
-  vertical-align:middle;
+  align-self:center;
 }
 
 
@@ -172,6 +173,7 @@ a:focus{
 
   /*Req 11*/
   .container{
+    display:grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows:400px 425px 425px 400px;
   }
